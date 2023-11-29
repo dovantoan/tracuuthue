@@ -1,0 +1,529 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ThuVienPhapLuat.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ThuVienPhapLuat.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\css\\adminlte.min.css",
+      "PackagePath": "staticwebassets\\css\\adminlte.min.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\css\\bootstrap-colorpicker.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-colorpicker.min.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\css\\bootstrap-duallistbox.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-duallistbox.min.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\css\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\css\\daterangepicker.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\css\\dropzone.min.css",
+      "PackagePath": "staticwebassets\\css\\dropzone.min.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\css\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\css\\jquery-ui.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\css\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery-ui.min.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\css\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\css\\jquery-ui.min.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\css\\select2-bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\css\\select2-bootstrap4.min.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\css\\select2.min.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\css\\sweetalert.css",
+      "PackagePath": "staticwebassets\\css\\sweetalert.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\AdminLTELogo.png",
+      "PackagePath": "staticwebassets\\images\\AdminLTELogo.png"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\avatar.png",
+      "PackagePath": "staticwebassets\\images\\avatar.png"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\avatar04.png",
+      "PackagePath": "staticwebassets\\images\\avatar04.png"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\avatar2.png",
+      "PackagePath": "staticwebassets\\images\\avatar2.png"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\avatar3.png",
+      "PackagePath": "staticwebassets\\images\\avatar3.png"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\avatar5.png",
+      "PackagePath": "staticwebassets\\images\\avatar5.png"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\boxed-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\boxed-bg.jpg"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\boxed-bg.png",
+      "PackagePath": "staticwebassets\\images\\boxed-bg.png"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\credit\\american-express.png",
+      "PackagePath": "staticwebassets\\images\\credit\\american-express.png"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\credit\\cirrus.png",
+      "PackagePath": "staticwebassets\\images\\credit\\cirrus.png"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\credit\\mastercard.png",
+      "PackagePath": "staticwebassets\\images\\credit\\mastercard.png"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\credit\\mestro.png",
+      "PackagePath": "staticwebassets\\images\\credit\\mestro.png"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\credit\\paypal.png",
+      "PackagePath": "staticwebassets\\images\\credit\\paypal.png"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\credit\\paypal2.png",
+      "PackagePath": "staticwebassets\\images\\credit\\paypal2.png"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\credit\\visa.png",
+      "PackagePath": "staticwebassets\\images\\credit\\visa.png"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\default-150x150.png",
+      "PackagePath": "staticwebassets\\images\\default-150x150.png"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\icons.png",
+      "PackagePath": "staticwebassets\\images\\icons.png"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\photo1.png",
+      "PackagePath": "staticwebassets\\images\\photo1.png"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\photo2.png",
+      "PackagePath": "staticwebassets\\images\\photo2.png"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\photo3.jpg",
+      "PackagePath": "staticwebassets\\images\\photo3.jpg"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\photo4.jpg",
+      "PackagePath": "staticwebassets\\images\\photo4.jpg"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\prod-1.jpg",
+      "PackagePath": "staticwebassets\\images\\prod-1.jpg"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\prod-2.jpg",
+      "PackagePath": "staticwebassets\\images\\prod-2.jpg"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\prod-3.jpg",
+      "PackagePath": "staticwebassets\\images\\prod-3.jpg"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\prod-4.jpg",
+      "PackagePath": "staticwebassets\\images\\prod-4.jpg"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\prod-5.jpg",
+      "PackagePath": "staticwebassets\\images\\prod-5.jpg"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\user1-128x128.jpg",
+      "PackagePath": "staticwebassets\\images\\user1-128x128.jpg"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\user2-160x160.jpg",
+      "PackagePath": "staticwebassets\\images\\user2-160x160.jpg"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\user3-128x128.jpg",
+      "PackagePath": "staticwebassets\\images\\user3-128x128.jpg"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\user4-128x128.jpg",
+      "PackagePath": "staticwebassets\\images\\user4-128x128.jpg"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\user5-128x128.jpg",
+      "PackagePath": "staticwebassets\\images\\user5-128x128.jpg"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\user6-128x128.jpg",
+      "PackagePath": "staticwebassets\\images\\user6-128x128.jpg"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\user7-128x128.jpg",
+      "PackagePath": "staticwebassets\\images\\user7-128x128.jpg"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\images\\user8-128x128.jpg",
+      "PackagePath": "staticwebassets\\images\\user8-128x128.jpg"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\js\\adminlte.min.js",
+      "PackagePath": "staticwebassets\\js\\adminlte.min.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\js\\bootstrap-colorpicker.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap-colorpicker.min.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\js\\bootstrap-datepicker.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap-datepicker.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\js\\bootstrap-switch.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap-switch.min.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\js\\bs-stepper.min.js",
+      "PackagePath": "staticwebassets\\js\\bs-stepper.min.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\js\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\js\\daterangepicker.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\js\\demo.js",
+      "PackagePath": "staticwebassets\\js\\demo.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\js\\dropzone.min.js",
+      "PackagePath": "staticwebassets\\js\\dropzone.min.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\js\\jquery.inputmask.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.inputmask.min.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\js\\moment.min.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\js\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\js\\select2.full.min.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\js\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\js\\sweetalert.min.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\EXAMPLE\\TOANDV\\ThuVienPhapLuat\\ThuVienPhapLuat\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ThuVienPhapLuat.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ThuVienPhapLuat.props",
+      "PackagePath": "build\\ThuVienPhapLuat.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ThuVienPhapLuat.props",
+      "PackagePath": "buildMultiTargeting\\ThuVienPhapLuat.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ThuVienPhapLuat.props",
+      "PackagePath": "buildTransitive\\ThuVienPhapLuat.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

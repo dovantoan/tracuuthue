@@ -1,0 +1,245 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@using ThuVienPhapLuat.Utilities.Models
+@model CoQuanBanHanh
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+            @*<h2 class="text-center display-4">TÌM KIẾM VĂN BẢN</h2>*@
+            <form action="enhanced-results.html">
+                <div class="row">
+                    <div class="col-md-10 offset-md-1">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="form-group">
+                                    <label>Lĩnh vực: </label>
+                                    <select class="select2" id="LinhVucId" name="linhVucId" data-placeholder="Chọn lĩnh vực" style="width: 100%;">
+                                    <@foreach (var it in ViewBag.listLinhVuc)
+                                    {
+                                            <option value="@it.Id">@it.Ten</option>
+                                    }
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-group">
+                                    <label>Cơ quan ban hành</label>
+                                    <select class="select2" id="CoQuanBanHanhId" name="CoQuanBanHanhId" style="width: 100%;">
+                                    <@foreach (var it in ViewBag.listCoQuanBanHanh)
+                                    {
+                                        <option value="@it.Id">@it.Ten</option>
+                                    }
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-group">
+                                    <label>Từ ngày</label>
+                                    <div class="input-group date" id="reservationdate1" data-target-input="nearest">
+                                    @*<input type="text" class="form-control datetimepicker-input" data-target="#reservationdate1" id="fromDate" name="fromDate" value="@DateTime.Now.AddDays(-7).ToString("dd/MM/yyyy")">*@
+                                    <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate1" id="fromDate" name="fromDate">
+                                    <div class="input-group-append" data-target="#reservationdate1" data-toggle="datetimepicker">
+                                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-group">
+                                    <label>Đến ngày</label>
+                                    <div class="input-group date" id="reservationdate2" data-target-input="nearest">
+                                    @*<input type="text" class="form-control datetimepicker-input" data-target="#reservationdate2" id="toDate" name="toDate" value="@DateTime.Now.ToString("dd/MM/yyyy")">*@
+                                    <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate2" id="toDate" name="toDate">
+                                    <div class="input-group-append" data-target="#reservationdate2" data-toggle="datetimepicker">
+                                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group input-group-lg">
+                                <input type="search" id="SoKyHieu" name="SoKyHieu" class="form-control form-control-lg" placeholder="Nhập số ký hiệu" >
+                                <div class="input-group-append">
+                                    <button type="button" class="btn btn-lg btn-default" onclick="searchThongTin(true)">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group" style="float:right">
+                            <div class="input-group input-group-lg">
+                                <div class="input-group-append">
+                                    <button type="button" class="btn btn-lg btn-default" onclick="exportExcel()">Export Excel</button>
+                                </div>
+                            </div>
+                        </div>
+                    <input type="hidden" id="PageIndex" name="PageIndex" class="form-control form-control-lg" value="0">
+                    <input type="hidden" id="PageIndexScroll" name="PageIndexScroll" class="form-control form-control-lg" value="0">
+                    <input type="hidden" id="RowNumber" name="RowNumber" class="form-control form-control-lg" value="100">
+                    </div>
+                </div>
+            </form>
+            <div class="row mt-3">
+                <div class="col-md-10 offset-md-1">
+                    <div class="list-group">
+                    <div class="list-group-item" style="background: aliceblue;font-weight: bold;">
+                        <div class="row">
+                            <div class="col-2">Số ký hiệu</div>
+                            <div class="col-2">Ngày ban hành</div>
+                            <div class="col-2">Cơ quan ban hành</div>
+                            <div class="col-4" style="text-align:center">Trích yếu</div>
+                            <div class="col-2" style="text-align:center">Link files</div>
+                        </div>
+                    </div>
+                    <div class="list-group-item" id="listData" style="max-height:500px;overflow-y: scroll;display:none;">
+                        </div>
+                    </div>
+                    <div class="list-group-item" style="background: aliceblue;font-style: italic;font-weight: bold;">
+                            <div class="row">
+                                <div class="col-2"><i>Tổng: </i></div> 
+                                <div class="col-10" id="totalRows">0</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+@section Scripts{
+    @*<script src="~/js/jquery.min.js"></script>
+    <script src="~/js/select2.full.min.js"></script>
+    <script src="~/js/moment.min.js"></script>
+    <script src="~/js/jquery.inputmask.min.js"></script>
+    <script src="~/js/daterangepicker.js"></script>
+    <script src="~/js/bootstrap-colorpicker.min.js"></script>
+    <script src="~/js/bootstrap-datepicker.js"></script>*@
+<script type="text/javascript">
+    $(document).ready(function () {
+            $('.select2').select2();
+            $('.select2bs4').select2({
+                theme: 'bootstrap4'
+            });
+            $('#reservationdate1').datetimepicker({
+                format: 'DD/MM/YYYY'
+            });
+            $('#reservationdate2').datetimepicker({
+                format: 'DD/MM/YYYY'
+            });
+    });
+        $("#listData").on('scroll', function (event) {
+            var st = $(this).scrollTop();
+            if ((st + $(this)[0].offsetHeight) >= $(this)[0].scrollHeight) {
+                searchThongTin(false);
+            } else {
+            }
+        });
+    function searchThongTin(isSearch) {
+        var pageIndex = 0;
+        if (isSearch){
+            $('#PageIndex').val(0);
+            $('#PageIndexScroll').val(0);
+             pageIndex = 0;
+        }else{
+                pageIndex = parseInt($('#PageIndex').val()) + 1;
+        }
+        $('#listData').show();
+        var searchEntity = {
+            LinhVucId: $('#LinhVucId').val(),
+            CoQuanBanHanhId: $('#CoQuanBanHanhId').val(),
+            SoKyHieu: $('#SoKyHieu').val(),
+            StrFromDate: $('#fromDate').val(),
+            StrToDate: $('#toDate').val(),
+            IsDesc:false,
+            SortName:'',
+            PageIndex: pageIndex,
+            //PageIndex: pageIndex,
+            RowNumber: $('#RowNumber').val()
+        };
+        $.ajax({
+            url: "/Home/SearchThongTinVanBan",
+            method: 'POST',
+            dataType: "json",
+            data: {
+                searchEntity: searchEntity}
+            //data: { productPid: productPid, __RequestVerificationToken: $("input[name='__RequestVerificationToken']").val() },
+        }).done(function (data) {
+            if (data.success) {
+                if(data.data!=null && data.data.length > 0){
+                        var str = "<div class='row' style='margin-bottom: 2px;border-bottom: thin solid #cbc6c6;'><div class='col-2'>{soKyHieu}</div><div class='col-2'>{ngayBanHanh}</div><div class='col-2'>{coQuanBanHanh}</div><div class='col 4'><p><span><a href='{detailt}' target='_blank'>{trichYeu}</a></span></p></div><div class='col-2'><p><span style='font-style: italic;'>{download}</span></p></div></div>";
+                    var tem ='';
+                    for(var i = 0;i<data.data.length;i++){
+                        var _str = str;
+                        if(data.data[i].linkdownload){
+                                _str = _str.replace('{download}', "<a href='{linkDownload}' target='_blank'><i class='bi bi-file-earmark-pdf' width='16' height='16'></i>Download file</a>");
+                        }else{
+                                _str = _str.replace('{download}', '');
+                        }
+                        var tempDate = new Date(data.data[i].ngayBanHanh);
+                        var formattedDate = [tempDate.getDate(), tempDate.getMonth() + 1, tempDate.getFullYear()].join('/');
+                            tem += _str.replace('{soKyHieu}', data.data[i].soKyHieu).replace('{ngayBanHanh}', formattedDate).replace('{coQuanBanHanh}', data.data[i].coQuanBanHanh).replace('{trichYeu}', data.data[i].trichYeu).replace('{detailt}', data.data[i].detailt).replace('{linkDownload}', data.data[i].linkdownload);
+                    }
+                    if(isSearch){
+                       $('#listData').empty();
+                    }
+                    $('#listData').append(tem);
+                    //var pageIndex = parseInt($('#PageIndex').val()) + 1;
+                    //var pageIndex = parseInt($('#PageIndexScroll').val()) + 1;
+                    //var pageIndex = parseInt($('#PageIndexScroll').val()) + 1;
+                    $('#PageIndex').val(pageIndex);
+                    $('#totalRows').text(data.totalRows);
+                }else{
+                    if(isSearch){
+                           $('#listData').empty();
+                            $('#totalRows').text(0);
+                    }
+                }
+            } else {
+                //swal("Thông báo!", data.ErrMsg, "error");
+            }
+
+        });
+    };
+
+    function exportExcel() {
+            var searchEntity = {
+                LinhVucId: $('#LinhVucId').val(),
+                CoQuanBanHanhId: $('#CoQuanBanHanhId').val(),
+                SoKyHieu: $('#SoKyHieu').val(),
+                StrFromDate: $('#fromDate').val(),
+                StrToDate: $('#toDate').val(),
+                IsDesc: false,
+                SortName: '',
+                PageIndex: $('#PageIndex').val(),
+                RowNumber: $('#RowNumber').val()
+            };
+            $.ajax({
+                url: "/Home/ExporDataToFile",
+                method: 'POST',
+                dataType: "json",
+                data: {
+                    searchEntity: searchEntity
+                }
+            }).done(function (filedata) {
+                var bytes = new Uint8Array(filedata.fileContents);
+                //var blob = new Blob([filedata.fileContents], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' });
+                var blob = new Blob([s2ab(atob(filedata.fileContents))], {
+                    type: ''
+                });
+                //var blob = new Blob([bytes], { type: 'application/ vnd.openxmlformats - officedocument.spreadsheetml.sheet' });
+                var link = document.createElement('a');
+                link.href = window.URL.createObjectURL(blob);
+                link.download = filedata.fileDownloadName;
+                link.click();
+
+            });
+        }
+
+        function s2ab(s) {
+            var buf = new ArrayBuffer(s.length);
+            var view = new Uint8Array(buf);
+            for (var i = 0; i != s.length; ++i) view[i] = s.charCodeAt(i) & 0xFF;
+            return buf;
+        }
+  </script>
+  }

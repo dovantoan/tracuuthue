@@ -1,0 +1,17 @@
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\ThuVienPhapLuat.Application\bin\Debug\net7.0\ThuVienPhapLuat.Application.deps.json
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\ThuVienPhapLuat.Application\bin\Debug\net7.0\ThuVienPhapLuat.Application.dll
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\ThuVienPhapLuat.Application\bin\Debug\net7.0\ThuVienPhapLuat.Application.pdb
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\ThuVienPhapLuat.Application\bin\Debug\net7.0\DataAccessLayer.dll
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\ThuVienPhapLuat.Application\bin\Debug\net7.0\ThuVienPhapLuat.Utilities.dll
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\ThuVienPhapLuat.Application\bin\Debug\net7.0\DataAccessLayer.pdb
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\ThuVienPhapLuat.Application\bin\Debug\net7.0\ThuVienPhapLuat.Utilities.pdb
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\ThuVienPhapLuat.Application\obj\Debug\net7.0\ThuVienPhapLuat.Application.csproj.AssemblyReference.cache
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\ThuVienPhapLuat.Application\obj\Debug\net7.0\ThuVienPhapLuat.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\ThuVienPhapLuat.Application\obj\Debug\net7.0\ThuVienPhapLuat.Application.AssemblyInfoInputs.cache
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\ThuVienPhapLuat.Application\obj\Debug\net7.0\ThuVienPhapLuat.Application.AssemblyInfo.cs
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\ThuVienPhapLuat.Application\obj\Debug\net7.0\ThuVienPhapLuat.Application.csproj.CoreCompileInputs.cache
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\ThuVienPhapLuat.Application\obj\Debug\net7.0\ThuVienPhapLuat.Application.csproj.CopyComplete
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\ThuVienPhapLuat.Application\obj\Debug\net7.0\ThuVienPhapLuat.Application.dll
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\ThuVienPhapLuat.Application\obj\Debug\net7.0\refint\ThuVienPhapLuat.Application.dll
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\ThuVienPhapLuat.Application\obj\Debug\net7.0\ThuVienPhapLuat.Application.pdb
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\ThuVienPhapLuat.Application\obj\Debug\net7.0\ref\ThuVienPhapLuat.Application.dll

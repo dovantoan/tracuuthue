@@ -1,0 +1,14 @@
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\DataAccessLayer\bin\Debug\net7.0\DataAccessLayer.deps.json
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\DataAccessLayer\bin\Debug\net7.0\DataAccessLayer.runtimeconfig.json
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\DataAccessLayer\bin\Debug\net7.0\DataAccessLayer.dll
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\DataAccessLayer\bin\Debug\net7.0\DataAccessLayer.pdb
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.AssemblyInfo.cs
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.dll
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\DataAccessLayer\obj\Debug\net7.0\refint\DataAccessLayer.dll
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.pdb
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.genruntimeconfig.cache
+D:\EXAMPLE\TOANDV\ThuVienPhapLuat\DataAccessLayer\obj\Debug\net7.0\ref\DataAccessLayer.dll
